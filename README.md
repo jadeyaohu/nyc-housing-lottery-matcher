@@ -10,6 +10,9 @@ and a plain note on how many units are in your band.
 - "Open now" uses the deadline date, not the status field (many "Active" rows are past their deadline).
 - Not an eligibility decision, no log-number prediction, never applies for anyone. Applying on Housing Connect is free.
 
+## Language
+The app follows the browser language (Chinese browsers see 中文, everyone else sees English). Visitors can switch with the EN / 中文 toggle, or open the app with `?lang=zh` or `?lang=en`.
+
 ## Run
     pip install -r requirements.txt
     streamlit run app.py
